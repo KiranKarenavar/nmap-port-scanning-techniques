@@ -23,10 +23,15 @@ Normal Output
 XML Output
 
 🎯 Learning Objectives
+
 → Understand how Nmap identifies open/closed/filtered ports
+
 → Analyze packet behavior in Wireshark
+
 → Study firewall filtering responses
+
 → Document scan results like a real SOC analyst
+
 → Improve hands-on cybersecurity skills
 
 🛠️ Tools Used
