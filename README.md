@@ -6,20 +6,35 @@ This project explores 15 different Nmap port scanning techniques performed in a 
 The goal is to understand enumeration methods, packet behavior, firewall responses, and how scans appear in Wireshark.
 
 📘 Scans Performed
+
 ACK Scan
+
 FIN Scan
+
 NULL Scan
+
 Protocol Scan
+
 Ping Scan
+
 SYN Scan
+
 TCP Connect Scan
+
 UDP Scan
+
 Windows Scan
+
 XMAS Scan
+
 ICMP Ping
+
 SYN Ping
+
 TCP Ping
+
 Normal Output
+
 XML Output
 
 🎯 Learning Objectives
