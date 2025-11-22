@@ -1,6 +1,7 @@
 # nmap-port-scanning-techniques
 
 📌 Overview
+
 This project explores 15 different Nmap port scanning techniques performed in a controlled home lab environment.
 The goal is to understand enumeration methods, packet behavior, firewall responses, and how scans appear in Wireshark.
 
@@ -52,12 +53,13 @@ XML Output
 → Improve hands-on cybersecurity skills
 
 
+
 🛠️ Tools Used
 
-    ✔ Kali Linux
+✔ Kali Linux        
+
+✔ Nmap    
     
-    ✔ Nmap
-    
-    ✔ Wireshark
-    
-    ✔ VirtualBox
+✔ Wireshark 
+
+✔ VirtualBox
