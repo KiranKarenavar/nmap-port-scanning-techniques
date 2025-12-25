@@ -1,65 +1,83 @@
-# nmap-port-scanning-techniques
+# 🔐 Nmap Port Scanning Techniques – Cybersecurity Lab
 
-📌 Overview
+## 📌 Overview
+This repository documents a hands-on **Nmap Port Scanning Techniques** lab performed in a **controlled and isolated home lab environment**.  
+The purpose of this project is to understand how different port scanning techniques work, how systems and firewalls respond, and how scan activity appears at the packet level using Wireshark.
 
-This project explores 15 different Nmap port scanning techniques performed in a controlled home lab environment.
-The goal is to understand enumeration methods, packet behavior, firewall responses, and how scans appear in Wireshark.
+This project is focused on **learning reconnaissance techniques from a defensive (Blue Team / SOC) perspective**.
 
+---
 
-📘 Scans Performed
+## 🧪 Scan Techniques Covered
+The following Nmap scanning techniques were performed and analyzed:
 
-ACK Scan
+- SYN Scan (-sS)  
+- TCP Connect Scan (-sT)  
+- ACK Scan (-sA)  
+- FIN Scan (-sF)  
+- NULL Scan (-sN)  
+- XMAS Scan (-sX)  
+- UDP Scan (-sU)  
+- Protocol Scan (-sO)  
+- Ping Scan (-sn)  
+- ICMP Ping (-PI)  
+- SYN Ping (-PS)  
+- TCP Ping (-PT)  
+- Normal Output (-oN)  
+- XML Output (-oX)
 
-FIN Scan
+---
 
-NULL Scan
+## 🔍 Analysis Performed
+For each scan technique, the following was analyzed:
 
-Protocol Scan
+- Identification of **open, closed, and filtered ports**  
+- Host and firewall response behavior  
+- TCP flags and packet characteristics  
+- Differences between stealth and full-connection scans  
+- Packet-level visibility using Wireshark  
 
-Ping Scan
+Wireshark captures were used to observe how scanning activity appears on the network, helping build **SOC-level detection awareness**.
 
-SYN Scan
+---
 
-TCP Connect Scan
+## 🛠 Tools & Technologies
+- **Nmap**  
+- **Wireshark**  
+- **Kali Linux**  
+- **VMware (Isolated Lab Environment)**  
 
-UDP Scan
+---
 
-Windows Scan
+## 📄 Documentation
+This repository includes a **professional PDF report** containing:
+- Scan commands (sanitized)  
+- Screenshots of terminal output  
+- Wireshark packet captures  
+- Explanation of each scan technique  
+- Summary tables and conclusions  
 
-XMAS Scan
+All IP addresses and MAC addresses have been **masked** to follow cybersecurity best practices.
 
-ICMP Ping
+---
 
-SYN Ping
+## 🎯 Skills Demonstrated
+- Network reconnaissance analysis  
+- Packet capture and filtering  
+- TCP / UDP / ICMP protocol understanding  
+- Port state interpretation  
+- Cybersecurity documentation and reporting  
+- Blue Team / SOC fundamentals  
 
-TCP Ping
+---
 
-Normal Output
+## ⚠️ Disclaimer
+All scanning activities were conducted **strictly within a private, isolated home lab** using owned devices.  
+This project is intended **only for educational and defensive learning purposes**.
 
-XML Output
+---
 
+## 👤 Author
+**Kiran Karenavar**
 
-
-🎯 Learning Objectives
-
-→ Understand how Nmap identifies open/closed/filtered ports
-
-→ Analyze packet behavior in Wireshark
-
-→ Study firewall filtering responses
-
-→ Document scan results like a real SOC analyst
-
-→ Improve hands-on cybersecurity skills
-
-
-
-🛠️ Tools Used
-
-✔ Kali Linux        
-
-✔ Nmap    
-    
-✔ Wireshark 
-
-✔ VirtualBox
+Aspiring Cybersecurity Analyst | Blue Team | SOC | Ethical Hacking
