@@ -1,4 +1,4 @@
-# 🔐 Nmap Port Scanning Techniques – Cybersecurity Lab
+# 🔐 Network-Asset-Discovery – Cybersecurity Lab
 
 ## 📌 Overview
 This repository documents a hands-on **Nmap Port Scanning Techniques** lab performed in a **controlled and isolated home lab environment**.  
@@ -75,9 +75,3 @@ All IP addresses and MAC addresses have been **masked** to follow cybersecurity 
 All scanning activities were conducted **strictly within a private, isolated home lab** using owned devices.  
 This project is intended **only for educational and defensive learning purposes**.
 
----
-
-## 👤 Author
-**Kiran Karenavar**
-
-Aspiring Cybersecurity Analyst | Blue Team | SOC | Ethical Hacking
